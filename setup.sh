@@ -13,6 +13,8 @@ sudo apt install -y python2.7-dev python3-dev
 
 sudo apt install -y python3-scipy python3-pygame
 
+sudo apt install -y qt4-dev-tools
+
 sudo apt autoremove -y
 
 pip3 install boto3

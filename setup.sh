@@ -24,10 +24,11 @@ pip3 install cython
 pip3 install opencv-python==3.4.6.27
 pip3 install scipy
 
-pip3 install adafruit-blinka
-pip3 install adafruit-circuitpython-amg88xx
+# pip3 install adafruit-blinka
+# pip3 install adafruit-circuitpython-amg88xx
 
-pip3 install face_recognition
+# pip3 install face_recognition
+
 pip3 install imutils
 pip3 install opencv-python-headless
 pip3 install opencv-contrib-python

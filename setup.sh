@@ -6,7 +6,7 @@ sudo apt upgrade -y
 sudo apt install -y build-essential cmake pkg-config qt5-default gfortran \
                     libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev \
                     libavcodec-dev libavformat-dev libswscale-dev libv4l-dev \
-                    libxvidcore-dev libx264-dev libgtk2.0-dev libgtk-3-dev \
+                    libxvidcore-dev libx264-dev libgtk-3-dev \
                     libatlas-base-dev libhdf5-serial-dev libjasper1
 
 # sudo apt install -y python2.7-dev

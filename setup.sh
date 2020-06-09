@@ -1,7 +1,5 @@
 #!/bin/bash
 
-git pull
-
 sudo apt update
 sudo apt upgrade -y
 

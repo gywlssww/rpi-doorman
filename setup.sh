@@ -10,13 +10,13 @@ sudo apt install -y build-essential cmake pkg-config qt5-default gfortran \
                     libavcodec-dev libavformat-dev libswscale-dev libv4l-dev \
                     libxvidcore-dev libx264-dev libatlas-base-dev libhdf5-dev
 
-# libgtk-3-dev libjasper1
+# sudo apt install -y libgtk2.0-dev libgtk-3-dev libjasper1
 
 # sudo apt install -y python2.7-dev
 
 sudo apt install -y python3-dev python3-scipy python3-pygame python3-pyqt5
 
-# sudo apt install -y qt4-dev-tools
+sudo apt install -y qt4-dev-tools
 
 sudo apt autoremove -y
 

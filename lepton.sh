@@ -6,6 +6,6 @@ if [ ! -f raspberrypi_video ]; then
   qmake && make
 fi
 
-./raspberrypi_video -mirror -min 20 -max 37
+./raspberrypi_video -mirror -min 17 -max 37
 
 popd

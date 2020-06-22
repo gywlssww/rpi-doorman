@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LEPTON_AUTO=${LEPTON_AUTO}
+LEPTON_AUTO=${LEPTON_AUTO:-N}
 LEPTON_BASE=${LEPTON_BASE:-633}
 LEPTON_MIN=${LEPTON_MIN:-12}
 LEPTON_MAX=${LEPTON_MAX:-37}
@@ -13,7 +13,7 @@ fi
 
 PARAMS="-mirror -base ${LEPTON_BASE} -min ${LEPTON_MIN} -max ${LEPTON_MAX}"
 
-if [ "${LEPTON_AUTO}" != "" ]; then
+if [ "${LEPTON_AUTO}" == "Y" ]; then
   PARAMS="${PARAMS} -auto"
 fi
 

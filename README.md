@@ -25,7 +25,7 @@ sudo raspi-config
 ## git clone
 
 ```bash
-git clone https://github.com/nalbam/rpi
+git clone https://github.com/mzcdev/rpi
 git clone https://github.com/mzcdev/rpi-doorman
 git clone https://github.com/mzcdev/LeptonModule
 ```
